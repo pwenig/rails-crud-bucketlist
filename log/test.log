@@ -1,0 +1,7 @@
+Started GET "/" for 127.0.0.1 at 2014-05-10 14:02:16 -0600
+Started GET "/" for 127.0.0.1 at 2014-05-10 14:03:54 -0600
+Started GET "/" for 127.0.0.1 at 2014-05-10 14:04:35 -0600
+Started GET "/" for 127.0.0.1 at 2014-05-10 14:05:20 -0600
+Processing by WishesController#index as HTML
+  Rendered wishes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 978ms (Views: 923.6ms | ActiveRecord: 0.0ms)
