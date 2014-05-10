@@ -1,1 +1,10 @@
 <h1>Bucketlist</h1>
+
+<h2><a href="/wishes/new">Add to Your Bucketlist</a></h2>
+
+<h2>My Bucket List</h2>
+<ul>
+<% @bucket.each do |item| %>
+<li><%= item.wish %></li>
+<% end %>
+</ul>
