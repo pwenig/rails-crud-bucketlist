@@ -16,4 +16,8 @@ class WishesController < ApplicationController
     redirect_to '/'
   end
 
+  def show
+    @bucket = Wish.find(params[:id])
+
+  end
 end
