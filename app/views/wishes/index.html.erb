@@ -4,7 +4,9 @@
 
 <h2>My Bucket List</h2>
 
+<ul class="items">
 <% @bucket.each do |item| %>
 <li><a href='/wishes/<%= item.id %>'><%= item.wish  %></a></li>
 <% end %>
+</ul>
 
