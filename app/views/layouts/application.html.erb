@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bucketlist</title>
+  <title>Bucket List</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
+<header>
+<h2><a href='/'>Bucket List</a></h2>
+
+</header>
 <body>
 
 <%= yield %>

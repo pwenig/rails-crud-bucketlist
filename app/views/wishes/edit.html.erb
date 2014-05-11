@@ -1,13 +1,18 @@
-<h2>Edit Bucketlist</h2>
-
+<article>
+  <ul class="wish_list">
 <form action="/wishes/<%= @bucket.id %>" method="post">
   <input type="hidden" name="_method" value="put">
-  <input type="text" name="wish" value="<%= @bucket.wish %>">
-  <input type="text" name="description" value="<%= @bucket.description %>">
-  <input type="submit" value="Update">
+  <li> <input type="text" class="search_box" name="wish" value="<%= @bucket.wish %>"></li>
+  <li><input type="text" class="search_box" name="description" value="<%= @bucket.description %>"></li>
+  <li><input type="submit" value="Update"></li>
 </form>
 <form action="/wishes/<%= @bucket.id %>" method="post">
   <input type="hidden" name="_method" value="delete">
-  <input type="submit" value="Delete">
+  <li><input type="submit" value="Delete"></li>
 </form>
+  </ul>
+</article>
+
+
+
 

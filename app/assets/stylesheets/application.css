@@ -13,3 +13,81 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    background-image: url("http://www.wallsave.com/wallpapers/1600x900/sky/99055/sky-hd-99055.jpg");
+}
+
+header {
+    margin: auto;
+    width: 960px;
+    background-color: MediumOrchid;
+    overflow: hidden;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+article {
+    float: right;
+    border: 10px solid #000;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 350px;
+}
+article ul {
+    margin: 0px;
+    padding: 0;
+
+}
+
+li {
+    font-family: 'Permanent Marker';
+    font-size: 24px;
+}
+article li {
+    background-color: MediumOrchid;
+    margin: 5px 0;
+    list-style-type: none;
+    text-align: center;
+
+}
+article li a {
+    font: 20px;
+    color: #000;
+    text-decoration: underline;
+    display: block;
+    padding: 20px;
+}
+
+
+
+.wish_list input.search_box {
+    width: 550px;
+    height: 40px;
+    margin: 8px 0 8px 15px;
+    padding: 8px;
+    display: inline-block;
+
+}
+
+
+::-webkit-input-placeholder {
+    font-family: 'Permanent Marker';
+    font-size: 14px;
+    color: black;
+ }
+
+.submit_button {
+
+    color: black;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+

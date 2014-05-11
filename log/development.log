@@ -3199,3 +3199,3879 @@ Processing by WishesController#edit as HTML
   [1m[36mWish Load (0.4ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
   Rendered wishes/edit.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:15:21 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (17.6ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 90ms (Views: 72.1ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:15:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:21 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:15:26 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:15:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:26 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:15:28 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:15:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:28 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:28 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:15:49 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:15:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:49 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:15:50 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:15:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:15:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:16:20 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:20 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:16:20 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:20 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.4ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:21 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:16:31 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:16:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:31 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:31 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:16:50 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:50 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:16:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:16:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:17:03 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:17:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:03 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:17:11 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:17:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:11 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:17:26 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:17:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:17:26 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:18:25 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.4ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:18:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:18:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:18:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:18:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:18:25 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:18:26 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:18:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:18:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:18:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:18:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:18:26 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:19:33 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:19:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:33 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:19:34 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:19:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:34 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:34 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:19:42 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:19:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:19:42 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:20:36 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:20:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:36 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:37 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:20:44 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:20:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:44 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:20:45 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:20:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:20:45 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:21:02 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:21:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:02 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:03 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:21:32 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:21:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:32 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:21:36 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:21:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:36 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:21:51 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:21:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:21:57 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:21:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:21:57 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:22:01 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:22:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:01 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:22:07 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:07 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:22:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:07 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:22:28 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:22:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:28 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:28 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:22:29 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:22:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:29 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:22:44 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:22:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:22:44 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:23:14 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:23:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:23:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:23:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:23:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:23:14 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:25:02 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 55ms (Views: 54.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:25:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:25:02 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:25:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:25:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:25:02 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:30:30 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:30:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:30:32 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:30:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:32 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:30:56 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:30:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:30:56 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:32:36 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:32:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:32:36 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:34:42 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:34:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:34:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:34:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:34:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:34:42 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:34:51 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:34:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:34:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:34:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:34:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:34:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:35:17 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:35:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:35:17 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:35:17 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:35:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:35:17 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:35:26 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:35:26 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:35:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:35:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:35:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:35:26 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:36:40 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:36:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:40 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:36:41 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:36:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:42 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:36:50 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:36:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:36:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:37:05 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:37:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:05 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:05 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:37:12 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:37:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:13 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:37:30 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:37:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:30 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:37:50 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:37:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:37:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:38:49 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:39:12 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:39:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:12 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:39:16 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:39:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:16 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:16 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:39:24 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:24 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:39:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:24 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:39:24 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:39:37 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 22:40:20 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mWish Load (48.1ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 4.9ms | ActiveRecord: 48.1ms)
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 22:40:39 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:41:08 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:41:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:08 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:08 -0600
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 22:41:10 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mWish Load (0.3ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 22:41:24 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 22:41:41 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:41:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:41 -0600
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 22:41:50 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:41:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:41:50 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:41:55 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 22:41:57 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:42:26 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:42:58 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:42:58 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:42:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:42:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:42:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:42:58 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:42:59 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:43:56 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:44:17 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:44:17 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:44:17 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:44:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:44:17 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:44:17 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:44:33 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:44:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:44:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:44:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:44:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:44:33 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:50:12 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:50:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:12 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:13 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:50:14 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:50:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:14 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:50:25 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:51:03 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:51:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:03 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:51:04 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:51:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:04 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:51:07 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:07 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:51:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:51:07 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:53:51 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:53:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:51 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:53 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:53:54 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:53:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:53:54 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:54:22 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:22 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:54:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:22 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:54:24 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:54:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:24 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:24 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:54:45 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:54:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:45 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:54:54 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:54:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:54 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:54 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:54:54 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:55:29 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:55:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:55:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:55:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:55:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:55:29 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:55:49 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:55:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:55:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:55:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:55:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:55:49 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:56:13 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:56:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:13 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:56:14 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:56:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:14 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:56:50 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:56:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:50 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:50 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:56:50 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:51 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:56:55 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:56:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:56:55 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:09 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:57:28 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:28 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:57:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:28 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:28 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:57:46 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:46 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:57:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:57:46 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:58:00 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:58:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:00 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:58:24 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:58:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:24 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:24 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:25 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:58:35 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:58:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:35 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:58:35 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:59:04 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 22:59:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 22:59:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 22:59:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 22:59:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 22:59:04 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:01:57 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:01:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:01:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:01:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:01:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:01:57 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:03:29 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:29 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:03:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:29 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:03:30 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:03:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:30 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:03:31 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:03:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:31 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:31 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:03:32 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:03:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:03:32 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:04:48 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:04:48 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:04:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:04:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:04:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:04:48 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:05:06 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:05:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:06 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:06 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:05:15 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:05:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:15 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:15 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:05:31 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:05:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:05:32 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:06:19 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:06:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:19 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:06:26 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:06:26 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:26 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:06:32 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:06:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:32 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:06:58 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:58 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:06:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:58 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:06:58 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:07:02 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:07:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:03 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:07:07 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:07:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:07 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:07 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:07 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:07:12 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:07:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:12 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:07:18 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:18 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:07:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:18 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:07:20 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:07:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:20 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:20 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:07:21 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:07:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:21 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:07:27 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:27 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:07:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:27 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:27 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:07:47 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:07:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:07:47 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:08:41 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:08:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:08:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:08:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:08:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:08:41 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:10:11 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:10:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:10:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:10:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:10:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:10:11 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:10:31 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:10:31 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:10:31 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:10:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:10:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:10:31 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:14:15 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:14:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:15 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:15 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:14:16 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:14:16 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:16 -0600
+
+
+Started POST "/" for 127.0.0.1 at 2014-05-10 23:14:29 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"description"=>"nbow now now"}
+  [1m[36m (93.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (51.9ms)[0m  INSERT INTO "wishes" ("description") VALUES ($1) RETURNING "id"  [["description", "nbow now now"]]
+  [1m[36m (20.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 254ms (ActiveRecord: 166.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:14:29 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:14:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:14:29 -0600
+
+
+Started GET "/wishes/6" for 127.0.0.1 at 2014-05-10 23:15:04 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered wishes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/wishes/6/edit" for 127.0.0.1 at 2014-05-10 23:15:06 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered wishes/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:15:40 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:15:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:15:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:15:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:15:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:15:40 -0600
+
+
+Started GET "/wishes/6" for 127.0.0.1 at 2014-05-10 23:15:50 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered wishes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/wishes/6/edit" for 127.0.0.1 at 2014-05-10 23:15:55 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered wishes/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/wishes/6" for 127.0.0.1 at 2014-05-10 23:16:03 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Fly to the moon", "description"=>"nbow now now", "id"=>"6"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (57.9ms)[0m  UPDATE "wishes" SET "wish" = $1 WHERE "wishes"."id" = 6  [["wish", "Fly to the moon"]]
+  [1m[36m (15.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 143ms (ActiveRecord: 73.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:16:03 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:16:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:16:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:16:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:16:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:16:03 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:16:08 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2014-05-10 23:16:21 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"description"=>"Cause it's fun"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "wishes" ("description") VALUES ($1) RETURNING "id"  [["description", "Cause it's fun"]]
+  [1m[36m (16.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 18ms (ActiveRecord: 16.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:16:21 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:16:21 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:16:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:16:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:16:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:16:21 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:16:59 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:17:33 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:17:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:33 -0600
+
+
+Started POST "/" for 127.0.0.1 at 2014-05-10 23:17:46 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Jump from a helicopeter", "description"=>"watch out"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"  [["description", "watch out"], ["wish", "Jump from a helicopeter"]]
+  [1m[36m (48.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 51ms (ActiveRecord: 49.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:17:46 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:17:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:46 -0600
+
+
+Started GET "/wishes/7" for 127.0.0.1 at 2014-05-10 23:17:49 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  Rendered wishes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes/7/edit" for 127.0.0.1 at 2014-05-10 23:17:51 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 7]]
+  Rendered wishes/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/wishes/7" for 127.0.0.1 at 2014-05-10 23:17:52 -0600
+Processing by WishesController#destroy as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mSQL (0.6ms)[0m  DELETE FROM "wishes" WHERE "wishes"."id" = 7
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:17:52 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:17:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:17:52 -0600
+
+
+Started GET "/wishes/8" for 127.0.0.1 at 2014-05-10 23:17:54 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 8]]
+  Rendered wishes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/wishes/8/edit" for 127.0.0.1 at 2014-05-10 23:17:57 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  Rendered wishes/edit.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/wishes/8" for 127.0.0.1 at 2014-05-10 23:18:00 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Jump from a helicopeter", "description"=>"watch out", "id"=>"8"}
+  [1m[35mWish Load (0.3ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 8]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:18:00 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:18:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:18:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:18:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:18:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:18:00 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:21:02 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:21:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:02 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:21:03 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:21:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:03 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:21:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:21:45 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:22:18 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:22:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:18 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:22:19 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:22:39 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:22:39 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:39 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:39 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:39 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:39 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:22:48 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:22:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:48 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:22:48 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:25:45 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:25:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:25:45 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:25:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:25:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:25:45 -0600
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 23:25:46 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes/4/edit" for 127.0.0.1 at 2014-05-10 23:25:48 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered wishes/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/wishes/4/edit" for 127.0.0.1 at 2014-05-10 23:26:14 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered wishes/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:26:14 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:26:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:26:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:26:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:26:14 -0600
+
+
+Started PUT "/wishes/4" for 127.0.0.1 at 2014-05-10 23:27:13 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Swim in the lake", "description"=>"Any ocean is fine", "id"=>"4"}
+  [1m[35mWish Load (0.1ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:27:13 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:27:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:27:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:27:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:27:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:27:13 -0600
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:27:15 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wishes/8" for 127.0.0.1 at 2014-05-10 23:27:27 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mWish Load (0.6ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 8]]
+  Rendered wishes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/wishes/8/edit" for 127.0.0.1 at 2014-05-10 23:27:36 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  Rendered wishes/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/wishes/8" for 127.0.0.1 at 2014-05-10 23:27:38 -0600
+Processing by WishesController#destroy as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 8]]
+  [1m[36mSQL (28.5ms)[0m  [1mDELETE FROM "wishes" WHERE "wishes"."id" = 8[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 31ms (ActiveRecord: 28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:27:38 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:27:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:27:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:27:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:27:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:27:38 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:28:00 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:28:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:00 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:28:55 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:28:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:55 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:28:57 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:28:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:57 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:28:57 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:29:51 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:29:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:29:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:29:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:29:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:29:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:29:52 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:29:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:29:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:29:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:29:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:29:52 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:30:15 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:30:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:30:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:30:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:30:15 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:30:15 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:30:32 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:30:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:30:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:30:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:30:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:30:32 -0600
+
+
+Started GET "/wishes/6" for 127.0.0.1 at 2014-05-10 23:30:39 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered wishes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:30:40 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 23:30:41 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:30:43 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes/6" for 127.0.0.1 at 2014-05-10 23:30:44 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered wishes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:30:45 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 23:31:00 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2014-05-10 23:31:24 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Take a train ride to CA", "description"=>"It would be great to take a long train ride"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"[0m  [["description", "It would be great to take a long train ride"], ["wish", "Take a train ride to CA"]]
+  [1m[35m (11.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:31:24 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:31:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:31:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:31:24 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:31:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:31:24 -0600
+
+
+Started GET "/wishes/9" for 127.0.0.1 at 2014-05-10 23:31:27 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mWish Load (0.4ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 9]]
+  Rendered wishes/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes/9/edit" for 127.0.0.1 at 2014-05-10 23:31:35 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mWish Load (0.8ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered wishes/edit.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 52ms (Views: 48.9ms | ActiveRecord: 0.8ms)
+
+
+Started PUT "/wishes/9" for 127.0.0.1 at 2014-05-10 23:31:40 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Take a train ride to CA", "description"=>"It would be great to take a long train ride", "id"=>"9"}
+  [1m[35mWish Load (0.1ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 9]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:31:40 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:31:40 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:31:40 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:31:40 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:31:40 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:31:40 -0600
+
+
+Started GET "/wishes/9" for 127.0.0.1 at 2014-05-10 23:31:42 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 9]]
+  Rendered wishes/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 4.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/wishes/9/edit" for 127.0.0.1 at 2014-05-10 23:31:44 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mWish Load (0.7ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  Rendered wishes/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/wishes/9/edit" for 127.0.0.1 at 2014-05-10 23:32:03 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mWish Load (0.1ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 9]]
+  Rendered wishes/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-10 23:32:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-10 23:32:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-10 23:32:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-10 23:32:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-10 23:32:03 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-10 23:32:06 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.3ms)
