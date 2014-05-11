@@ -1,38 +1,26 @@
 require 'spec_helper'
 
-feature 'User can create, update, and delete a bucklist of wishes' do
-  scenario 'User can manage a list of wishes' do
+feature 'Manage a list of wishes in a bucket list' do
+  scenario 'User can create a list of wishes, see details, update, and delete' do
     visit ('/')
-    click_on 'Add to Your Bucketlist'
-    fill_in 'wish', with: "Ride in a hot air balloon"
-    fill_in 'description', with: "I would like to fly in a balloon over Italy"
+    click_on 'Add to Your Bucket List'
+    fill_in 'wish', with: "Ski the Swiss Alps"
+    fill_in 'description', with: "It would be so amazing to ski here."
     click_on 'Add'
-    expect(page).to have_content("Ride in a hot air balloon")
-    within ".items" do
-      click_on("Ride in a hot air balloon", :match => :first)
-    end
-    expect(page).to have_content("Ride in a hot air balloon")
-    expect(page).to have_content("I would like to fly in a balloon over Italy")
-
-    click_on 'Ride in a hot air balloon'
-    fill_in 'wish', with: "Ride in a sail boat"
-    fill_in 'description', with: "Ride the seas in the Bahamas"
+    expect(page).to have_content "Ski the Swiss Alps"
+    click_on 'Ski the Swiss Alps'
+    expect(page).to have_content "It would be so amazing to ski here."
+    click_on 'Bucket List'
+    click_on 'Ski the Swiss Alps'
+    click_on 'Ski the Swiss Alps'
+    fill_in 'wish', with: "Live in Hong Kong"
+    fill_in 'description', with: "It would be a great way to learn the culture"
     click_on 'Update'
-    expect(page).to have_content "Ride in a sail boat"
+    expect(page).to have_content "Live in Hong Kong"
+    click_on 'Live in Hong Kong'
+    click_on 'Live in Hong Kong'
+    click_on 'Delete'
+    expect(page).to_not have_content "Live in Hong Kong"
 
   end
-  scenario "User can delete something from the list" do
-    visit ('/')
-    click_on 'Add to Your Bucketlist'
-    fill_in 'wish', with: "Ride in a hot air balloon"
-    fill_in 'description', with: "I would like to fly in a balloon over Italy"
-    click_on 'Add'
-    expect(page).to have_content("Ride in a hot air balloon")
-    click_on "Ride in a hot air balloon"
-    click_on "Ride in a hot air balloon"
-    click_on "Delete"
-    expect(page).to not_have content "Ride in a hot air balloon"
-
-  end
-
 end

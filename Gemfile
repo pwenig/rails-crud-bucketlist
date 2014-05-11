@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 group :development, :test do
   gem 'capybara', '~> 2.2.1'
   gem 'rspec-rails', '~> 2.14.2'
+  gem 'database_cleaner', '~> 1.2.0'
 end
 
 gem 'rails_12factor', group: :production do

@@ -5,15 +5,17 @@ class WishesController < ApplicationController
   end
 
   def new
-    @bucket = Wish.new
+
   end
 
   def create
-    @bucket = Wish.new
-    @bucket.wish = params[:wish]
-    @bucket.description = params[:description]
-    @bucket.save
+    create_bucket = Wish.new
+    create_bucket.wish = params[:wish]
+    create_bucket.description = params[:description]
+    create_bucket.save
     redirect_to '/'
+
+
   end
 
   def show
@@ -25,15 +27,16 @@ class WishesController < ApplicationController
   end
 
   def update
-    @bucket = Wish.find(params[:id])
-    @bucket.wish = params[:wish]
-    @bucket.description = params[:description]
-    @bucket.save
+    update_bucket = Wish.find(params[:id])
+    update_bucket.wish = params[:wish]
+    update_bucket.description = params[:description]
+    update_bucket.save
     redirect_to '/'
   end
 
   def destroy
-    Wish.find(params[:id]).delete
+    @bucket = Wish.find(params[:id])
+   @bucket.destroy
     redirect_to '/'
   end
 end
