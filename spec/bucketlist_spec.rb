@@ -21,5 +21,18 @@ feature 'User can create, update, and delete a bucklist of wishes' do
     expect(page).to have_content "Ride in a sail boat"
 
   end
+  scenario "User can delete something from the list" do
+    visit ('/')
+    click_on 'Add to Your Bucketlist'
+    fill_in 'wish', with: "Ride in a hot air balloon"
+    fill_in 'description', with: "I would like to fly in a balloon over Italy"
+    click_on 'Add'
+    expect(page).to have_content("Ride in a hot air balloon")
+    click_on "Ride in a hot air balloon"
+    click_on "Ride in a hot air balloon"
+    click_on "Delete"
+    expect(page).to not_have content "Ride in a hot air balloon"
+
+  end
 
 end

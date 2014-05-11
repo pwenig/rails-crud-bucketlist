@@ -2221,3 +2221,314 @@ Processing by WishesController#index as HTML
   [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
   Rendered wishes/index.html.erb within layouts/application (1.6ms)
 Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:53:45 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.4ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 273ms (Views: 217.2ms | ActiveRecord: 1.6ms)
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 21:53:46 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2014-05-10 21:53:46 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Ride in a hot air balloon", "description"=>"I would like to fly in a balloon over Italy"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (16.0ms)[0m  INSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"  [["description", "I would like to fly in a balloon over Italy"], ["wish", "Ride in a hot air balloon"]]
+  [1m[36m (14.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 59ms (ActiveRecord: 30.7ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:53:46 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/4" for 127.0.0.1 at 2014-05-10 21:53:46 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered wishes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/4/edit" for 127.0.0.1 at 2014-05-10 21:53:46 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mWish Load (0.3ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered wishes/edit.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+Started PUT "/wishes/4" for 127.0.0.1 at 2014-05-10 21:53:46 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Ride in a sail boat", "description"=>"Ride the seas in the Bahamas", "id"=>"4"}
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "wishes" SET "description" = $1, "wish" = $2 WHERE "wishes"."id" = 4[0m  [["description", "Ride the seas in the Bahamas"], ["wish", "Ride in a sail boat"]]
+  [1m[35m (15.8ms)[0m  COMMIT
+Redirected to http://www.example.com/
+Completed 302 Found in 19ms (ActiveRecord: 16.4ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:53:46 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:54:53 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.4ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 197ms (Views: 164.0ms | ActiveRecord: 1.5ms)
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 21:54:53 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2014-05-10 21:54:53 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Ride in a hot air balloon", "description"=>"I would like to fly in a balloon over Italy"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"  [["description", "I would like to fly in a balloon over Italy"], ["wish", "Ride in a hot air balloon"]]
+  [1m[36m (16.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 34ms (ActiveRecord: 16.6ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:54:53 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/5" for 127.0.0.1 at 2014-05-10 21:54:53 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered wishes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/5/edit" for 127.0.0.1 at 2014-05-10 21:54:53 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mWish Load (0.3ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered wishes/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+Started PUT "/wishes/5" for 127.0.0.1 at 2014-05-10 21:54:53 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Ride in a sail boat", "description"=>"Ride the seas in the Bahamas", "id"=>"5"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "wishes" SET "description" = $1, "wish" = $2 WHERE "wishes"."id" = 5[0m  [["description", "Ride the seas in the Bahamas"], ["wish", "Ride in a sail boat"]]
+  [1m[35m (15.6ms)[0m  COMMIT
+Redirected to http://www.example.com/
+Completed 302 Found in 18ms (ActiveRecord: 16.1ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:54:53 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 206ms (Views: 150.5ms | ActiveRecord: 2.1ms)
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Ride in a hot air balloon", "description"=>"I would like to fly in a balloon over Italy"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"  [["description", "I would like to fly in a balloon over Italy"], ["wish", "Ride in a hot air balloon"]]
+  [1m[36m (15.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 35ms (ActiveRecord: 16.6ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms)
+Started GET "/wishes/6" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered wishes/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/6/edit" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mWish Load (0.3ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered wishes/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+Started PUT "/wishes/6" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Ride in a sail boat", "description"=>"Ride the seas in the Bahamas", "id"=>"6"}
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "wishes" SET "description" = $1, "wish" = $2 WHERE "wishes"."id" = 6[0m  [["description", "Ride the seas in the Bahamas"], ["wish", "Ride in a sail boat"]]
+  [1m[35m (15.5ms)[0m  COMMIT
+Redirected to http://www.example.com/
+Completed 302 Found in 18ms (ActiveRecord: 16.1ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Ride in a hot air balloon", "description"=>"I would like to fly in a balloon over Italy"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"  [["description", "I would like to fly in a balloon over Italy"], ["wish", "Ride in a hot air balloon"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.7ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 21:57:56 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:00:14 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 273ms (Views: 217.5ms | ActiveRecord: 1.6ms)
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Ride in a hot air balloon", "description"=>"I would like to fly in a balloon over Italy"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"  [["description", "I would like to fly in a balloon over Italy"], ["wish", "Ride in a hot air balloon"]]
+  [1m[36m (41.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 59ms (ActiveRecord: 42.0ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Ride in a hot air balloon", "description"=>"I would like to fly in a balloon over Italy"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"[0m  [["description", "I would like to fly in a balloon over Italy"], ["wish", "Ride in a hot air balloon"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://www.example.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.9ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/7" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 7]]
+  Rendered wishes/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/7/edit" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  Rendered wishes/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+Started PUT "/wishes/7" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Ride in a sail boat", "description"=>"Ride the seas in the Bahamas", "id"=>"7"}
+  [1m[35mWish Load (0.2ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "wishes" SET "description" = $1, "wish" = $2 WHERE "wishes"."id" = 7  [["description", "Ride the seas in the Bahamas"], ["wish", "Ride in a sail boat"]]
+  [1m[36m (15.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 18ms (ActiveRecord: 16.1ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:00:15 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.6ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 295ms (Views: 227.7ms | ActiveRecord: 2.0ms)
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Ride in a hot air balloon", "description"=>"I would like to fly in a balloon over Italy"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"  [["description", "I would like to fly in a balloon over Italy"], ["wish", "Ride in a hot air balloon"]]
+  [1m[36m (16.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 38ms (ActiveRecord: 16.9ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/8" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  Rendered wishes/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/8/edit" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#edit as HTML
+  Parameters: {"id"=>"8"}
+  [1m[35mWish Load (0.4ms)[0m  SELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1  [["id", 8]]
+  Rendered wishes/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.3ms)
+Started PUT "/wishes/8" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#update as HTML
+  Parameters: {"wish"=>"Ride in a sail boat", "description"=>"Ride the seas in the Bahamas", "id"=>"8"}
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT  "wishes".* FROM "wishes"  WHERE "wishes"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "wishes" SET "description" = $1, "wish" = $2 WHERE "wishes"."id" = 8[0m  [["description", "Ride the seas in the Bahamas"], ["wish", "Ride in a sail boat"]]
+  [1m[35m (15.5ms)[0m  COMMIT
+Redirected to http://www.example.com/
+Completed 302 Found in 18ms (ActiveRecord: 16.0ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#index as HTML
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+  Rendered wishes/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+Started GET "/wishes/new" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#new as HTML
+  Rendered wishes/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2014-05-10 22:06:38 -0600
+Processing by WishesController#create as HTML
+  Parameters: {"wish"=>"Ride in a hot air balloon", "description"=>"I would like to fly in a balloon over Italy"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "wishes" ("description", "wish") VALUES ($1, $2) RETURNING "id"  [["description", "I would like to fly in a balloon over Italy"], ["wish", "Ride in a hot air balloon"]]
+  [1m[36m (16.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://www.example.com/
+Completed 302 Found in 18ms (ActiveRecord: 16.7ms)
+Started GET "/" for 127.0.0.1 at 2014-05-10 22:06:39 -0600
+Processing by WishesController#index as HTML
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+  Rendered wishes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms)

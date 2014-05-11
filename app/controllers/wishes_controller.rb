@@ -31,4 +31,9 @@ class WishesController < ApplicationController
     @bucket.save
     redirect_to '/'
   end
+
+  def destroy
+    Wish.find(params[:id]).delete
+    redirect_to '/'
+  end
 end
