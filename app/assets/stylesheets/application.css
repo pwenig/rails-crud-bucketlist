@@ -15,16 +15,18 @@
  */
 
 body {
-    background-image: url("http://www.wallsave.com/wallpapers/1600x900/sky/99055/sky-hd-99055.jpg");
+    background-image: url("http://blog.ioncube.com/wp-content/uploads/2013/12/vector-wallpaper-blue-clouds-wallpapers-devianart-nkspace-media-array-wallwuzz-hd-wallpaper-8558.jpg");
 }
 
 header {
     margin: auto;
     width: 960px;
-    background-color: MediumOrchid;
+    background-image: url("http://ak2.picdn.net/shutterstock/videos/738331/preview/stock-footage-purple-sparkling-glitters-motion-background-hd-d-motion-background-with-shiny-glitters.jpg");
+    background-size: cover;
     overflow: hidden;
     text-align: center;
     font-size: 22px;
+
 }
 
 
@@ -55,7 +57,7 @@ article li {
 }
 article li a {
     font: 20px;
-    color: #000;
+    color: white;
     text-decoration: underline;
     display: block;
     padding: 20px;
